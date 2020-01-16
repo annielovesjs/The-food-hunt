@@ -114,7 +114,7 @@ class Map extends React.Component {
              if(d.properties.name === 'Singapore') {
                  return "#ab91ce";
              } else {
-                 return 'green';
+                 return '#9e9e9e';
              }
          })
          .attr('stroke-width', function(d) {
@@ -124,7 +124,7 @@ class Map extends React.Component {
                 if(d.properties.name === 'Singapore') {
                     return 8;
                 } else {
-                 return 1;
+                 return 0.7;
                 }
              }
          })
@@ -161,7 +161,7 @@ class Map extends React.Component {
                 if(country.properties.name == 'Singapore') {
                     return 8;
                 } else {
-                    return 1;
+                    return 0.7;
                 }
             })
             document.querySelector('body').style.cursor = 'auto';      
