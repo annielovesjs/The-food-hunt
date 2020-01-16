@@ -97,13 +97,13 @@ span.close:hover {
     max-height: 450px;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 650px) {
     #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
         max-width: 60%;
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 800px) {
     #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
         max-width: 40%;
     }
