@@ -6,7 +6,7 @@
 }
 
 h2.title, .sideNote {
-    color: #00a700;
+    color: #ff5050;
     font-family: monospace;
     padding: 0% 5vh;
 }
@@ -16,7 +16,7 @@ h2 {
 }
 
 .sideNote {
-    color: black;
+    color: #151414;
     font-size: 2vh;
 }
 
@@ -32,7 +32,7 @@ a.site {
     position: relative;
     line-height: 0;
     height: 5vh;
-    background: #daf1da8a;
+    background: #f345002e;
   }
   
   #border, #border2 {
