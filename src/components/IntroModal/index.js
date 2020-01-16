@@ -29,7 +29,7 @@ class IntroModal extends React.Component {
             <div>
                 <div className={classnames(styles.introPrompt, this.state.firstVisit ? styles.firstIntroPrompt : '' )} onClick={this.showPopup}>
                     <img className={styles.dp} src={this.props.dp} onClick={this.showPopup}/>
-    <p className={classnames(this.state.firstVisit ? styles.visible: styles.invisible)}>{this.props.helper}</p>
+                    <p className={classnames(this.state.firstVisit ? styles.visible: styles.invisible)}>{this.props.helper}</p>
                 </div>
                 <div id="modal-container">
                     <div className="modal-background">

@@ -2,8 +2,12 @@ body {
     max-height: 100vh;
     overflow: hidden;
     background: white;
-
     line-height: 3vh;
+}
+
+p { 
+
+    color: #000000c9;
 }
 
 .dp {
