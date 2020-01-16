@@ -2,12 +2,13 @@
     position: absolute;
     z-index: 1;
     top: 3vh;
+    left: 0;
 }
 
 h2.title, .sideNote {
     color: #00a700;
     font-family: monospace;
-    padding: 0% 2vh;
+    padding: 0% 5vh;
 }
 
 h2 {
@@ -31,6 +32,7 @@ a.site {
     position: relative;
     line-height: 0;
     height: 5vh;
+    background: #daf1da8a;
   }
   
   #border, #border2 {

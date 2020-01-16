@@ -2,6 +2,8 @@ body {
     max-height: 100vh;
     overflow: hidden;
     background: white;
+
+    line-height: 3vh;
 }
 
 .dp {
@@ -26,7 +28,7 @@ body {
     left: 0;
     transform: scale(0);
     z-index: 1;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 #modal-container p , #modal-container-country p{
@@ -38,9 +40,9 @@ body {
 }
 #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
     max-height: 80vh;
-    background: #ffffffe3;
+    background: #fffffff5;
     color: black;
-    overflow: scroll;
+    overflow-y: scroll;
     max-width: 90%;
     font-family: monospace;
     text-align: left;
@@ -90,7 +92,7 @@ span.close {
     border-radius: 100%;
     font-size: 5vh;
     margin-right: -5vh;
-    padding: 0vh 1.5vh;
+    padding: 1.5vh;
     box-shadow: 0px 0px 3px #88888873;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
