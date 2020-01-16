@@ -30,7 +30,7 @@ body {
 }
 
 #modal-container p , #modal-container-country p{
-    font-size: 1.2em;
+    font-size: 2vh;
 }
 #modal-container.one, #modal-container-country.one {
     transform: scaleY(0.01) scaleX(0);
