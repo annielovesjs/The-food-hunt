@@ -145,7 +145,7 @@
     },
     { 
       "country": "Canada", 
-      "color": "#090963", 
+      "color": "#00a7ff", 
       "num": "6", 
       "pic":"./pics/canada_2.jpg",
       "cities": ["GTA", "Vancouver", "Whistler", "Montreal"],
@@ -183,7 +183,7 @@
 
     { 
       "country": "United States", 
-      "color": "#01494ee0", 
+      "color": "#f1877f", 
       "num": "7", 
       "pic":"./pics/usa.jpg",
       "cities": ["Chicago", "New York", "Seattle" ],

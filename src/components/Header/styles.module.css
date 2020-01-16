@@ -1,6 +1,7 @@
 .header {
     position: absolute;
     z-index: 1;
+    top: 3vh;
 }
 
 h2.title, .sideNote {
