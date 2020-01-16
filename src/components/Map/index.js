@@ -172,11 +172,11 @@ class Map extends React.Component {
                 document.querySelector('#modal-container-country').removeAttribute("class");
                 document.querySelector('#modal-container-country').classList.add('one');
                 document.querySelector('#countryName').innerHTML = d.properties.name;
-                document.querySelector('#rank').innerHTML = `Rank: ${d.properties.num}`;
+                document.querySelector('#rank').innerHTML = `${d.properties.num}`;
                 document.querySelector('#countryPhoto').src = d.properties.pic;
-                document.querySelector('#foodRecommendations').innerHTML = `TARGET FOODS: ${arrayToList(d.properties.food)}`;
-                document.querySelector('#cities').innerHTML = `Cities visited: ${arrayToList(d.properties.cities)}`;
-                document.querySelector('#tips').innerHTML = `Side note: ${arrayToList(d.properties.tips)}`;
+                document.querySelector('#foodRecommendations').innerHTML = `${arrayToList(d.properties.food)}`;
+                document.querySelector('#cities').innerHTML = `${arrayToList(d.properties.cities)}`;
+                document.querySelector('#tips').innerHTML = `${arrayToList(d.properties.tips)}`;
             }
 
          });
@@ -196,10 +196,10 @@ class Map extends React.Component {
                             <span className="close" onClick={this.closePopup}>&times;</span>
                             <img id="countryPhoto" src="" width="100%"></img>
                             <h2 id="countryName"></h2>
-                            <p id="rank"></p>
-                            <p id="foodRecommendations"></p>
-                            <p id="cities"></p>
-                            <p id="tips"></p>
+                            RANK:<p id="rank"></p>
+                            TARGET FOODS:<p id="foodRecommendations"></p>
+                            CITIES VISITED:<p id="cities"></p>
+                            ADVICE: <p id="tips"></p>
                         </div>
                     </div>
                 </div>
