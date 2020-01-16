@@ -35,7 +35,7 @@ class IntroModal extends React.Component {
                     <div className="modal-background">
                         <div className="modal">
                             <span className="close" onClick={this.closePopup}>&times;</span>
-                            <h2>{this.props.firstVisitText}</h2>
+                            <h2 id="intro">{this.props.firstVisitText}</h2>
                             <p>{this.props.description}</p>
                             <a className={styles.site} href="http://annieliang.io">Check out my other projects at annieliang.io</a>
                         </div>

@@ -104,6 +104,10 @@ span.close:hover {
 
 }
 
+.modal > h2#intro {
+    margin-top: 0;
+}
+
 #countryPhoto {
     border-radius: 5px;
     max-height: 450px;
