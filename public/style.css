@@ -1,0 +1,136 @@
+body {
+    max-height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+.dp {
+    cursor: pointer;    
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    transition: all .3s ease-in-out;
+    margin-right: 35px;
+}
+
+#chart {
+    height: 100vh;
+}
+
+#modal-container, #modal-container-country {
+    position: fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    z-index: 1;
+    overflow: scroll;
+}
+
+#modal-container p , #modal-container-country p{
+    font-size: 1.2em;
+}
+#modal-container.one, #modal-container-country.one {
+    transform: scaleY(0.01) scaleX(0);
+    animation: unfoldIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
+    max-height: 80vh;
+    background: #ffffffe3;
+    color: black;
+    overflow: scroll;
+    max-width: 36em;
+    font-family: monospace;
+    text-align: left;
+    transform: scale(0);
+    animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.one.out, #modal-container-country.one.out {
+    transform: scale(1);
+    animation: unfoldOut 0.3s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.one.out .modal-background .modal, #modal-container-country.one.out .modal-background-country .modal-country {
+    animation: zoomOut 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container .modal-background,  #modal-container-country .modal-background-country {
+    display: table-cell;
+    background: rgba(53, 53, 53, 0.8);
+    text-align: center;
+    vertical-align: middle;
+}
+#modal-container .modal-background .modal, #modal-container-country .modal-background-country .modal-country {
+    background: white;
+    padding: 50px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 300;
+    position: relative;
+    width: 60%;
+}
+.content {
+    min-height: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+    z-index: 0;
+}
+
+span.close {
+    float: right;
+    font-size: 3em;
+    position: sticky;
+    top: -40px;
+    margin-top: -40px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+span.close:hover {
+    color: rgb(0, 0, 0);
+}
+
+#countryPhoto {
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+@keyframes unfoldIn {
+    0% {
+        transform: scaleY(0.005) scaleX(0);
+   }
+    50% {
+        transform: scaleY(0.005) scaleX(1);
+   }
+    100% {
+        transform: scaleY(1) scaleX(1);
+   }
+}
+@keyframes unfoldOut {
+    0% {
+        transform: scaleY(1) scaleX(1);
+   }
+    50% {
+        transform: scaleY(0.005) scaleX(1);
+   }
+    100% {
+        transform: scaleY(0.005) scaleX(0);
+   }
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+   }
+    100% {
+        transform: scale(1);
+   }
+}
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+   }
+    100% {
+        transform: scale(0);
+   }
+}

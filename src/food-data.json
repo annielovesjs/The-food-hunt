@@ -1,0 +1,204 @@
+[
+    { 
+      "country": "Indonesia", 
+      "color": "#cba092",
+      "num":"13", 
+      "pic": "./pics/indonesia_2.jpg",
+      "cities": ["Bali", "Java"], 
+      "food": ["Nasi Goreng", "Kue bugis", "Chicken satay", "Foods from morning market"],     
+      "tips": ["Bring Immodium", "Go climb some mountains (Mount agung & sulfur mountain in Java)", "Surf"] 
+    },
+    { 
+      "country": "Thailand", 
+      "color": "#4db188",    
+      "num": "11", 
+      "pic":"./pics/thailand.jpg",
+      "cities": ["ChangMai", "Phuket", "Bangkok"],
+      "food": ["International foods were great", "Mango sticky rice", "Fresh coconut water"],     
+      "tips": ["Spend a day at an elephant conservatory", "Bangkok has the super nice malls with the amazing food selections - check out MBK Center and Siam Discovery"] 
+    },
+    { 
+      "country": "Taiwan", 
+      "color": "#0f90ff",    
+      "num": "8", 
+      "pic":"./pics/taiwan_2.jpg",
+      "cities": ["Kaoshiung", "Taipei", "Tainan", "Jiufen", "Yuchi"],
+      "food": ["Taiwanese fried chicken", "Taiwanese bubble tea", "Beef noodles", "Lychees during May", "Iced jelly desert w/ tofu", "Sweet potato balls"],     
+      "tips": ["Get ready to sweat", "Street vendors & food markets are A+"] 
+    },
+    { 
+      "country": "Singapore", 
+      "color": "#b589b8",    
+      "num": "10", 
+      "pic":"./pics/singapore.jpg",
+      "cities": ["Singapore", "Sentosa"],
+      "food": ["Song Fa Bak Kut Teh - famous for pork bone soup", "Boon Tong Kee - hainan chicken w/ rice & coconut water","Dragonfruit juice", "Black pepper crab"],     
+      "tips": ["Visit the Old Airport Road food market", "Singapore Art Museum", "Universal Studios in Sentosa"] 
+    },
+    { 
+      "country": "Netherlands", 
+      "color": "#ffc55b", 
+      "num": "19", 
+      "pic":"./pics/amsterdam_2.jpg",
+      "cities": ["Amsterdam"],
+      "food": ["Mini pancakes", "Restaurant Bak - Tasting menu", "Halal Fried Chicken - Hot Wings"],     
+      "tips": ["Visit the red light district"] 
+    },
+    { 
+      "country": "Poland",
+      "color": "#f4bf6a",     
+      "num": "17", 
+      "pic":"./pics/poland_2.jpg",
+      "cities": ["Krakow"],
+      "food": ["Pergoies", "Sausages"],     
+      "tips": ["Check out the Sukiennice market", "Great nightlife - a lot of bars open till 6am"] 
+    },
+    { 
+      "country": "Switzerland", 
+      "color": "#90bbc7",         
+      "num": "16", 
+      "pic":"./pics/swiss.jpg",
+      "cities": ["Zurich", "St.Gallen"],
+      "food": ["Sternen Grill - cheap eats", "Swiss Chocolate (higher milk content = better chocolate)", "Fondue Beizli - Fondue & Rosti", "Hot chocolate"],     
+      "tips": ["You're not gonna have money after Zurich", "For CS: Apply for StartHacks in St.Gallen"] 
+    },
+    { 
+      "country": "Iceland", 
+      "color": "#65a7ec",         
+      "num": "18", 
+      "pic":"./pics/iceland_2.jpg",
+      "cities": ["Reykjavik"],
+      "food": ["Messinn - All you can eat fish buffet", "Seafood"],     
+      "tips": ["Higher cost of living then most countries - food is on the higher price point", "Blue lagoooon"] 
+    },
+    { 
+      "country": "Italy", 
+      "color": "#192f4e", 
+      "num":"12", 
+      "pic":"./pics/italy.jpg",
+      "cities": ["Venice", "Naples", "Florence", "Rome", "Modena", "Bologna"],
+      "food": ["Lombardi, Da Michele (Michelin star) - Margherita Pizza", "Prawn tagliatelle", "Osteria Franscana (Modena) - need to a couple of months in advance"],     
+      "tips": ["Most beautiful place was definitely Florence - great vibes and nice architecture","Naples (OG pizza city) is where you should go for pizza", "Don't expect the busses to come on time and it's not always guaranteed it shows up at all"] 
+    },
+    {
+      "country": "France", 
+      "color": "#4e6388", 
+      "num": "18", 
+      "pic":"./pics/france.jpg",
+      "cities": ["Carcassone", "Montpellier"],
+      "food": ["Onion soup", "Crepes"],     
+      "tips": ["Check out Carcassonne for Medival city feels"] 
+    },
+    { 
+      "country": "Japan", 
+      "color": "#a87045", 
+      "num": "1", 
+      "pic":"./pics/japan.jpg",
+      "cities": ["Tokyo", "Kyoto", "Osaka", "Hokkaido", "Fukuoka", "Kobe"],
+      "food": ["Ramen", "Omelette rice", "Just go to Dotonbori Street", "Chicken & egg rice", "Hokkaido - Ice cream", "Niseko Takahashi Dairy Farm MILK KOBO", "JBBQ", "Shinjuku Takano Fruit Bar"],     
+      "tips": ["If you're not gaining 5lbs/week, you're not doing it right", "Fish markets in Osaka > Tokyo", "Fukuoka's great for cheap food that's also bomb"] 
+    },
+    { 
+      "country": "Spain",
+      "color": "#e24337",  
+      "num": "2", 
+      "pic":"./pics/spain_2.jpg",
+      "cities": ["Barcelona", "Seville", "Palma", "Valencia"],
+      "food": ["Mercado de la Boqueria (food market)", "Spanish omelette", "Pinxos", "Europa Café (Barcelona) - Garlic prawns", "Canete (Barcelona) - anything", "KingDo LITE (Seville). The chef combines the best european culinary techniques with asian food"],     
+      "tips": ["Cheap alc", "Spanish shops are closed between 4pm-7pm", "Beware of theives and pickpocketers", "Gold in Palma"] 
+    },
+    { 
+      "country": "Portugal", 
+      "color": "#ae4c2d", 
+      "num": "14", 
+      "pic":"./pics/portugal.jpg",
+      "cities": ["Lisbon"],
+      "food": ["Portugese egg tarts", "Roasted chestnuts", "Timeout Market - Grilled Fish"],     
+      "tips": ["Uber"] 
+    },
+    { 
+      "country": "Greece", 
+      "color": "#134ba2", 
+      "num": "20", 
+      "pic":"./pics/greece_2.jpg",
+      "cities": ["Athens", "Meteroa", "Thessaloniki"],
+      "food": ["Chicken souvlaki", "Frozen Greek Yogurt"],     
+      "tips": ["If you go to Athens, try to stay around the city center", "Kinda sketch in a lot of areas but there are some nice ones", "Go climb mountains in Meteroa and feel like a god"] 
+    },
+    { 
+      "country": "Morocco", 
+      "color": "#dabd99", 
+      "num": "15", 
+      "pic":"./pics/morocco.jpg",
+      "cities": ["Fez", "Ouarzazate", "Merzouga", "Marrakech"],
+      "food": ["Lamb Tajine", "Pastries", "Orange juice"],     
+      "tips": ["Do an overnight camping trip through the Sahara Desert", "Lots of game of thrones filming locations", "Do your research beforehand so you don't get scammed", "Message me if you need to find a guide/driver", "Honestly, this place is just mindboggingly beautiful - should definitely visit if you're a big fan of natural beauty"] 
+    },
+    { 
+      "country": "Belgium", 
+      "color": "#6a676d", 
+      "num": "21", 
+      "pic":"./pics/belgium_2.jpg",
+      "cities": ["Brussels", "Ghent"],
+      "food": ["Fries", "Belgian waffles", "Belgian Chocolate only if you like dark chocolate/chocolate with a higher cocoa content"],     
+      "tips": ["My least favourite types of chocolates concentrated in one place"]
+    },
+    { 
+      "country": "Canada", 
+      "color": "#81f1ff", 
+      "num": "6", 
+      "pic":"./pics/canada.jpg",
+      "cities": ["GTA", "Vancouver", "Whistler", "Montreal"],
+      "food": ["Reubens (Montreal) - Smoked meat", "Giulietta - snow crab fettuccine", "St.Regis Louix Louis lounge - Lobster roll", "Planta queen - asian fusion vegan food", "Five fortune culture resturant - spicy, crispy mushrooms & copper pot chicken"],     
+      "tips": ["Go to Whistler if you're stuck here for the winter", "Joffre lake", "Great diversity of foods"] 
+    },
+    { 
+      "country": "Korea", 
+      "color": "Red", 
+      "num": "5", 
+      "pic":"./pics/korea.jpg",
+      "cities": ["Seoul"],
+      "food": ["Ginseng chicken soup", "Chi-maek", "Naengmyeon", "Gyeranppang"],     
+      "tips": ["Go to Myeongdong Street Food Alley", "There are great places to go paragliding near Seoul"] 
+    },
+    { 
+      "country": "Australia", 
+      "color": "#2f2fb7", 
+      "num": "3", 
+      "pic":"./pics/australia.jpg",
+      "cities": ["Sydney", "Melbourne"],
+      "food": ["Sagra Resturant, Tayim Resturant and Bar", "Lots of great international food"],     
+      "tips": ["go to Shelly beach", "visit an animal sanctuary", "see fairy penguins by the St Kilda pier"] 
+    },
+
+    { 
+      "country": "China", 
+      "color": "pink", 
+      "num": "4", 
+      "pic":"./pics/china.jpg",
+      "cities": ["Beijing","Chengdu", "Chongqing", "Hong Kong", "Yangshuo","Guilin", "Qinzhou"],
+      "food": ["Beer braised fish in Guilin", "Hot pot in Chongqing"],     
+      "tips": ["Go to Yangshuo mountain", "Visit pandas in Chengdu", "Shop and eat in Jiefangbei Square in Chongqing"] 
+    },
+
+    { 
+      "country": "United States", 
+      "color": "#4caf50", 
+      "num": "7", 
+      "pic":"./pics/usa.jpg",
+      "cities": ["Chicago", "New York", "Seattle" ],
+      "food": ["hit up places on Worth it(Buzzfeed)", "Rainier cherries - Seattle"],     
+      "tips": ["watch Hamilton", "visit Pike market"]
+    }
+    ,
+
+    { 
+      "country": "United Kingdom", 
+      "color": "purple", 
+      "num": "9", 
+      "pic":"./pics/london.jpg",
+      "cities": ["Soho (London)"],
+      "food": ["Indian food", "Sunday roast", "Fish and chips"],     
+      "tips": ["watch some plays", "visit Soho for food, shopping & entertainment"]
+    }
+  ]
