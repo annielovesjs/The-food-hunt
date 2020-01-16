@@ -56,9 +56,11 @@
     cursor: pointer;
     width: 12em;
     font-size: 2vh;
-    background: #ffcd71;
+    background: transparent;
     font-family: monospace;
     margin-left: 2vh;
+    background: #00bcd40d;
+    border: 1px solid #53becc;
 
 }
 
@@ -68,5 +70,5 @@
 }
 
 .firstIntroPrompt:hover {
-    background: #ffc14f;
+    background: #00bcd45c;
 }

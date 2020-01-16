@@ -108,13 +108,13 @@ class Map extends React.Component {
          .attr('d', path)
          .attr('fill', function( d, i ){
              let country = d.properties.num;
-             return country ? d.properties.color : '#bbbbbb'; //only color in those with data
+             return country ? d.properties.color : 'black'; //only color in those with data
          })
          .attr('stroke', function(d) {
              if(d.properties.name === 'Singapore') {
                  return "#ab91ce";
              } else {
-                 return '#f1f1f1';
+                 return '#55d7de';
              }
          })
          .attr('stroke-width', function(d) {

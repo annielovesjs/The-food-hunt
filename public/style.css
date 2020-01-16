@@ -1,13 +1,13 @@
 body {
     max-height: 100vh;
     overflow: hidden;
-    background: white;
+    background: #00080e;
     line-height: 3vh;
 }
 
 p { 
 
-    color: #000000c9;
+    color: #effdff;
 }
 
 .dp {
@@ -44,15 +44,14 @@ p {
 }
 #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
     max-height: 80vh;
-    background: #fffffff5;
     color: black;
+    border: 1px solid white;
     overflow-y: scroll;
     max-width: 90%;
     font-family: monospace;
     text-align: left;
     transform: scale(0);
     animation: zoomIn 0.4s 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-    border-radius: 15px;
 }
 #modal-container.one.out, #modal-container-country.one.out {
     transform: scale(1);
@@ -68,7 +67,7 @@ p {
     vertical-align: middle;
 }
 #modal-container .modal-background .modal, #modal-container-country .modal-background-country .modal-country {
-    background: white;
+    background: #00080e;
     padding: 50px;
     display: inline-block;
     border-radius: 3px;
@@ -91,9 +90,7 @@ span.close {
     top: -40px;
     margin-top: -40px;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.65);
     background: white;
-    border-radius: 100%;
     font-size: 5vh;
     margin-right: -5vh;
     padding: 1.5vh;
@@ -102,6 +99,9 @@ span.close {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+    background: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 span.close:hover {
