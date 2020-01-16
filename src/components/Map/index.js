@@ -174,7 +174,7 @@ class Map extends React.Component {
                 document.querySelector('#countryName').innerHTML = d.properties.name;
                 document.querySelector('#rank').innerHTML = `Rank: ${d.properties.num}`;
                 document.querySelector('#countryPhoto').src = d.properties.pic;
-                document.querySelector('#foodRecommendations').innerHTML = `Foods to try: ${arrayToList(d.properties.food)}`;
+                document.querySelector('#foodRecommendations').innerHTML = `TARGET FOODS: ${arrayToList(d.properties.food)}`;
                 document.querySelector('#cities').innerHTML = `Cities visited: ${arrayToList(d.properties.cities)}`;
                 document.querySelector('#tips').innerHTML = `Side note: ${arrayToList(d.properties.tips)}`;
             }

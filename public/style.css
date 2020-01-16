@@ -44,8 +44,8 @@ p {
 }
 #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
     max-height: 80vh;
-    color: black;
-    border: 1px solid white;
+    color: #41d1e4;
+    border: 1px solid #53becc;
     overflow-y: scroll;
     max-width: 90%;
     font-family: monospace;
@@ -63,11 +63,12 @@ p {
 #modal-container .modal-background,  #modal-container-country .modal-background-country {
     display: table-cell;
     background: rgba(25, 24, 24, 0.61);
+    border: 1px solid #53becc;
     text-align: center;
     vertical-align: middle;
 }
 #modal-container .modal-background .modal, #modal-container-country .modal-background-country .modal-country {
-    background: #00080e;
+    background: #011215;
     padding: 50px;
     display: inline-block;
     border-radius: 3px;
@@ -101,13 +102,11 @@ span.close {
     user-select: none; /* Standard */
     background: transparent;
     color: white;
-    border: 1px solid white;
+    border: 1px solid #41d1e4;
 }
 
 span.close:hover {
-    color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 3px #888888;
-
+    background: #52ebff6b;
 }
 
 .modal > h2#intro {
