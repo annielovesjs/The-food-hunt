@@ -7,7 +7,7 @@ body {
 
 p { 
 
-    color: #effdff;
+    color: #dadede;
 }
 
 .dp {
@@ -100,13 +100,13 @@ span.close {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-    background: transparent;
+    background: #164046;
     color: white;
     border: 1px solid #41d1e4;
 }
 
 span.close:hover {
-    background: #52ebff6b;
+    background: #3399a7;
 }
 
 .modal > h2#intro {
