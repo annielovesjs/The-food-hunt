@@ -92,6 +92,10 @@ span.close {
     margin-right: -5vh;
     padding: 0vh 1.5vh;
     box-shadow: 0px 0px 3px #88888873;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 span.close:hover {

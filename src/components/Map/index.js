@@ -37,27 +37,32 @@ class Map extends React.Component {
             return str;
         }
         // Width and height
-        var chart_width     =  1900; // window.innerWidth - 1900
-        var chart_height    =  1700; 
+        let chart_width     =  1900; // window.innerWidth - 1900
+        let chart_height    =  1700; 
         
-        var projection = d3.geoMercator()
+        const projection = d3.geoMercator()
         .center([0,0])    
         .scale((chart_width - 3) / (2 * Math.PI))
         .rotate([-10,0])
         .translate([chart_width / 2, chart_height / 2]);
 
-        var path = d3.geoPath()
+        const path = d3.geoPath()
         .projection(projection);
         
         const width = d3.select('#chart').node().getBoundingClientRect().width;
         const height = width / 2;
 
-        var zoom = d3.zoom().scaleExtent([1, 40])
+
+        const zoomed = () => {
+            map.attr("transform", d3.event.transform);
+        }
+        
+        const zoom = d3.zoom().scaleExtent([1, 40])
         .extent([[width, height], [width, height]])
         .on("zoom", zoomed);
         
         // Create SVG
-        var svg             =   d3.select("#chart")
+        const svg             =   d3.select("#chart")
             .append("svg")
             .attr('viewBox', '-100 -250 2100 1800')
             .attr('preserveAspect', 'xMidYMid')
@@ -68,14 +73,10 @@ class Map extends React.Component {
             .style("width", "100%")
             .call(zoom);
 
-        var map             =   svg.append( 'g' )
+        const map             =   svg.append( 'g' )
             .attr( 'id', 'map' );
 
-        function zoomed(){
-            map.attr("transform", d3.event.transform);
-        }
-
-        var tooltip = d3.select("body").append("div") 
+        const tooltip = d3.select("body").append("div") 
             .attr("class", "tooltip")       
             .style("opacity", 1)
             .style("background", "orange")
@@ -106,7 +107,7 @@ class Map extends React.Component {
          .attr('class', 'path')
          .attr('d', path)
          .attr('fill', function( d, i ){
-             var country = d.properties.num;
+             let country = d.properties.num;
              return country ? d.properties.color : '#000000c2'; //only color in those with data
          })
          .attr('stroke', function(d) {
@@ -129,7 +130,7 @@ class Map extends React.Component {
          })
          .on("mouseover", function(d, i) {    
 
-             var country = d.properties.num;
+             let country = d.properties.num;
              
              if(country) {
                  map.selectAll('path').attr('stroke-width', function(country) {

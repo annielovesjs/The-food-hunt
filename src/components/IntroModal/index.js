@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './styles.module.css';
-import ReactDOM from 'react-dom';
 import classnames from 'classnames';
 
 class IntroModal extends React.Component {

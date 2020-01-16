@@ -57,6 +57,10 @@
 
 }
 
+.modal h2 {
+    margin-top: 0;
+}
+
 .firstIntroPrompt > p {
     line-height: 4vh;
 }
