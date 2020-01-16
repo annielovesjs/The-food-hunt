@@ -24,8 +24,18 @@ class Map extends React.Component {
     }
 
     renderMap = () => {
-        var numCountry = 17;
-
+        const arrayToList = (arr) => {
+            let str = '';
+            let count = 0;
+            arr.forEach((item) => {
+                if (count !== 0) {
+                    str+=', ';
+                }
+                count+=1;
+                str+=item;
+            })
+            return str;
+        }
         // Width and height
         var chart_width     =  1900; // window.innerWidth - 1900
         var chart_height    =  1700; 
@@ -163,9 +173,9 @@ class Map extends React.Component {
                 document.querySelector('#countryName').innerHTML = d.properties.name;
                 document.querySelector('#rank').innerHTML = `Rank: ${d.properties.num}`;
                 document.querySelector('#countryPhoto').src = d.properties.pic;
-                document.querySelector('#foodRecommendations').innerHTML = `Foods to try: ${d.properties.food}`;
-                document.querySelector('#cities').innerHTML = `Cities visited: ${d.properties.cities}`;
-                document.querySelector('#tips').innerHTML = `Side note: ${d.properties.tips}`;
+                document.querySelector('#foodRecommendations').innerHTML = `Foods to try: ${arrayToList(d.properties.food)}`;
+                document.querySelector('#cities').innerHTML = `Cities visited: ${arrayToList(d.properties.cities)}`;
+                document.querySelector('#tips').innerHTML = `Side note: ${arrayToList(d.properties.tips)}`;
             }
 
          });
