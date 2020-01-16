@@ -41,11 +41,12 @@ body {
     background: #ffffffe3;
     color: black;
     overflow: scroll;
-    max-width: 36em;
+    max-width: 90%;
     font-family: monospace;
     text-align: left;
     transform: scale(0);
     animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    border-radius: 15px;
 }
 #modal-container.one.out, #modal-container-country.one.out {
     transform: scale(1);
@@ -94,6 +95,18 @@ span.close:hover {
 #countryPhoto {
     border-radius: 5px;
     max-height: 450px;
+}
+
+@media only screen and (min-width: 600px) {
+    #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
+        max-width: 40%;
+    }
 }
 
 @keyframes unfoldIn {
