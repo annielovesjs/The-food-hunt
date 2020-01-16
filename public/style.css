@@ -126,6 +126,7 @@ span.close:hover {
 @media (min-width: 800px) {
     #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
         max-width: 40%;
+        max-height: 70vh;
     }
 }
 

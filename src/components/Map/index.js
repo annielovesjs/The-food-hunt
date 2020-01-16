@@ -190,7 +190,7 @@ class Map extends React.Component {
             <div id="chart">
                 <Header 
                     title="The Food Hunt"
-                    sideNote="Scroll to zoom and click the colored countries"
+                    sideNote="Scroll to zoom and drag to navigate"
                 />
                 <div id="modal-container-country">
                     <div className="modal-background modal-background-country">
