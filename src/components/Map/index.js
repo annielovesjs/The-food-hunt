@@ -37,7 +37,7 @@ class Map extends React.Component {
             return str;
         }
         // Width and height
-        let chart_width     =  1900; // window.innerWidth - 1900
+        let chart_width     =  1900; 
         let chart_height    =  1700; 
         
         const projection = d3.geoMercator()
@@ -56,7 +56,7 @@ class Map extends React.Component {
         const zoomed = () => {
             map.attr("transform", d3.event.transform);
         }
-        
+
         const zoom = d3.zoom().scaleExtent([1, 40])
         .extent([[width, height], [width, height]])
         .on("zoom", zoomed);
@@ -111,17 +111,17 @@ class Map extends React.Component {
              return country ? d.properties.color : '#000000c2'; //only color in those with data
          })
          .attr('stroke', function(d) {
-             if(d.properties.name == 'Singapore') {
+             if(d.properties.name === 'Singapore') {
                  return "#ab91ce";
              } else {
                  return 'green';
              }
          })
          .attr('stroke-width', function(d) {
-             if(d.properties.name == 'Singapore') {
+             if(d.properties.name === 'Singapore') {
                  return 8;
              } else {
-                if(d.properties.name == 'Singapore') {
+                if(d.properties.name === 'Singapore') {
                     return 8;
                 } else {
                  return 1;
