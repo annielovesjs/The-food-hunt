@@ -79,10 +79,12 @@ class Map extends React.Component {
         const tooltip = d3.select("body").append("div") 
             .attr("class", "tooltip")       
             .style("opacity", 1)
-            .style("background", "orange")
+            .style("background", "rgb(11, 110, 123)")
             .style("position", "absolute")
             .style("font-family", "monospace")
-            .style("padding", "10px");
+            .style("padding", "10px")
+            .style("color", "white")
+            .style("border", "1px solid cadetblue");
 
         // load in data Data
         World.features.forEach(function(us_e, us_i) {
