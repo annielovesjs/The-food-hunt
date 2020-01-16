@@ -86,10 +86,18 @@ span.close {
     margin-top: -40px;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.65);
+    background: white;
+    border-radius: 100%;
+    font-size: 5vh;
+    margin-right: -5vh;
+    padding: 0vh 1.5vh;
+    box-shadow: 0px 0px 3px #88888873;
 }
 
 span.close:hover {
     color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 3px #888888;
+
 }
 
 #countryPhoto {
