@@ -124,7 +124,7 @@ class Map extends React.Component {
                 if(d.properties.name === 'Singapore') {
                     return 8;
                 } else {
-                 return 0.7;
+                 return 0.6;
                 }
              }
          })
@@ -137,7 +137,7 @@ class Map extends React.Component {
                      if(country.properties.num === d.properties.num) {
                          return 2.6;
                      } else {
-                         return 0.7;
+                         return 0.6;
                         
                      }
                  })    
@@ -161,7 +161,7 @@ class Map extends React.Component {
                 if(country.properties.name == 'Singapore') {
                     return 8;
                 } else {
-                    return 0.7;
+                    return 0.6;
                 }
             })
             document.querySelector('body').style.cursor = 'auto';      

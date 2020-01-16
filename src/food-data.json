@@ -145,7 +145,7 @@
     },
     { 
       "country": "Canada", 
-      "color": "#81f1ff", 
+      "color": "#00004e", 
       "num": "6", 
       "pic":"./pics/canada_2.jpg",
       "cities": ["GTA", "Vancouver", "Whistler", "Montreal"],
@@ -173,7 +173,7 @@
 
     { 
       "country": "China", 
-      "color": "pink", 
+      "color": "#46010d", 
       "num": "4", 
       "pic":"./pics/china.jpg",
       "cities": ["Beijing","Chengdu", "Chongqing", "Hong Kong", "Yangshuo","Guilin", "Qinzhou"],
@@ -183,7 +183,7 @@
 
     { 
       "country": "United States", 
-      "color": "#4caf50", 
+      "color": "#002a35", 
       "num": "7", 
       "pic":"./pics/usa.jpg",
       "cities": ["Chicago", "New York", "Seattle" ],
