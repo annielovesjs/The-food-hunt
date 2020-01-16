@@ -129,6 +129,18 @@ span.close:hover {
     }
 }
 
+@media (min-width: 1000px) {
+    #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
+        max-width: 35%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #modal-container.one .modal-background .modal, #modal-container-country.one .modal-background-country .modal-country {
+        max-width: 30%;
+    }
+}
+
 @keyframes unfoldIn {
     0% {
         transform: scaleY(0.005) scaleX(0);

@@ -25,12 +25,12 @@ a.site {
 }
 
   #parent, #parent2 {
-    white-space: nowrap;
     overflow: hidden; 
     color: rgba(255,255,255,.70);
     position: relative;
     line-height: 0;
-    height: 5vh;
+    white-space: nowrap;
+    animation: animated-text 1s steps(30,end) 1s 1 normal both;
   }
   
   #border, #border2 {
@@ -41,9 +41,6 @@ a.site {
   }
   
   /* Animation */
-  #parent, #parent2 {
-    animation: animated-text 1s steps(30,end) 1s 1 normal both;
-  }
 
   #parent2 {
     animation-delay: 0.8s;
