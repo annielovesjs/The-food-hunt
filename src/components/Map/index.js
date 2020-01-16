@@ -108,13 +108,13 @@ class Map extends React.Component {
          .attr('d', path)
          .attr('fill', function( d, i ){
              let country = d.properties.num;
-             return country ? d.properties.color : '#000000c2'; //only color in those with data
+             return country ? d.properties.color : '#bbbbbb'; //only color in those with data
          })
          .attr('stroke', function(d) {
              if(d.properties.name === 'Singapore') {
                  return "#ab91ce";
              } else {
-                 return '#9e9e9e';
+                 return '#f1f1f1';
              }
          })
          .attr('stroke-width', function(d) {
@@ -124,7 +124,7 @@ class Map extends React.Component {
                 if(d.properties.name === 'Singapore') {
                     return 8;
                 } else {
-                 return 0.6;
+                 return 0.5;
                 }
              }
          })
@@ -137,7 +137,7 @@ class Map extends React.Component {
                      if(country.properties.num === d.properties.num) {
                          return 2.6;
                      } else {
-                         return 0.6;
+                         return 0.5;
                         
                      }
                  })    
@@ -161,7 +161,7 @@ class Map extends React.Component {
                 if(country.properties.name == 'Singapore') {
                     return 8;
                 } else {
-                    return 0.6;
+                    return 0.5;
                 }
             })
             document.querySelector('body').style.cursor = 'auto';      

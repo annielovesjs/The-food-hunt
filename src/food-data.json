@@ -46,7 +46,7 @@
     },
     { 
       "country": "Poland",
-      "color": "#f4bf6a",     
+      "color": "#2f9447a8",     
       "num": "17", 
       "pic":"./pics/poland_2.jpg",
       "cities": ["Krakow"],
@@ -64,7 +64,7 @@
     },
     { 
       "country": "Iceland", 
-      "color": "#65a7ec",         
+      "color": "#32174c",         
       "num": "18", 
       "pic":"./pics/iceland_2.jpg",
       "cities": ["Reykjavik"],
@@ -145,7 +145,7 @@
     },
     { 
       "country": "Canada", 
-      "color": "#00004e", 
+      "color": "#090963", 
       "num": "6", 
       "pic":"./pics/canada_2.jpg",
       "cities": ["GTA", "Vancouver", "Whistler", "Montreal"],
@@ -183,7 +183,7 @@
 
     { 
       "country": "United States", 
-      "color": "#002a35", 
+      "color": "#01494ee0", 
       "num": "7", 
       "pic":"./pics/usa.jpg",
       "cities": ["Chicago", "New York", "Seattle" ],
