@@ -135,9 +135,9 @@ class Map extends React.Component {
              if(country) {
                  map.selectAll('path').attr('stroke-width', function(country) {
                      if(country.properties.num === d.properties.num) {
-                         return 4;
+                         return 2.6;
                      } else {
-                         return 0.8;
+                         return 0.7;
                         
                      }
                  })    
