@@ -50,10 +50,10 @@ body {
 }
 #modal-container.one.out, #modal-container-country.one.out {
     transform: scale(1);
-    animation: unfoldOut 0.2s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldOut 0.3s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 #modal-container.one.out .modal-background .modal, #modal-container-country.one.out .modal-background-country .modal-country {
-    animation: zoomOut 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: zoomOut 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 #modal-container .modal-background,  #modal-container-country .modal-background-country {
     display: table-cell;
